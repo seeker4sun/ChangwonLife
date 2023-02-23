@@ -1,7 +1,7 @@
 <div class="bordered">
     <div>
-        <button (click)="expand()">열기</button>
-        <button (click)="collapse()">닫기</button>
+        <button type="button" (click)="expand()">열기</button>
+        <button type="button" (click)="collapse()">닫기</button>
     </div>
     <div class="toggle-popup" [@openClose]="state">      
         Hello<br/>

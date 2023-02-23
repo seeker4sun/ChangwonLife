@@ -1,8 +1,12 @@
-<input type="text"  [(ngModel)]="user.id" #id="ngModel"  placeholder="아이디 (1~10글자)"  pattern="^[a-z][a-z0-9]{1,9}" maxlength="10" required> 
-  <p>id.value : {{id.value|json}}</p>
-  <p>id.valid : {{id.valid}}</p>
-  <p>id.untouched : {{id.untouched}}</p>
-  <p>id.touched : {{id.touched}}</p>  
-  <p>id.pristine : {{id.pristine}}</p>
-  <p>id.dirty : {{id.dirty}}</p>
-  <p>id.errors : {{id.errors |json}}</p>
+<div>
+<p>
+<input type="text"  [(ngModel)]="user.id" #id="ngModel"  placeholder="아이디 (1~10글자)"  pattern="^[a-z][a-z0-9]{1,9}" maxlength="10" required>
+</p>
+<p>id.value     : {{id.value|json}}</p>
+<p>id.valid     : {{id.valid}}</p>
+<p>id.untouched : {{id.untouched}}</p>
+<p>id.touched   : {{id.touched}}</p>  
+<p>id.pristine  : {{id.pristine}}</p>
+<p>id.dirty     : {{id.dirty}}</p>
+<p>id.errors    : {{id.errors |json}}</p>
+</div>

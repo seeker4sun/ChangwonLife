@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomLimitToComponent } from './pth-limit-to.component';
+import { PthLimitToComponent } from './pth-limit-to.component';
 
-describe('CustomLimitToComponent', () => {
-  let component: CustomLimitToComponent;
-  let fixture: ComponentFixture<CustomLimitToComponent>;
+describe('PthLimitToComponent', () => {
+  let component: PthLimitToComponent;
+  let fixture: ComponentFixture<PthLimitToComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CustomLimitToComponent ]
+      declarations: [ PthLimitToComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CustomLimitToComponent);
+    fixture = TestBed.createComponent(PthLimitToComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

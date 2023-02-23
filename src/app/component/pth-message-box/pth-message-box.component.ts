@@ -13,14 +13,14 @@ import { trigger, transition, style, animate, state } from '@angular/animations'
       state('open',  style({ height: '100px', paddingTop: '50px' })),
       transition('void => close', animate(500)),
       transition('close => open', animate(300)),
-      transition('open => close', animate(200))
+      transition('open => close', animate('1000ms ease-out'))
     ])]
 })
 export class PthMessageBoxComponent {
-  state!: string;
+  openOrClose!: string;
 
-  constructor() { this.collapse(); }
-  expand()   { this.state = 'open'; }
-  collapse() { this.state = 'close'; }
+  constructor() { this.collapseToClose(); }
+  expandToOpen()   { this.openOrClose = 'open'; }
+  collapseToClose(){ this.openOrClose = 'close'; }
 }
 

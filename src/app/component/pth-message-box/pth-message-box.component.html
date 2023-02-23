@@ -1,9 +1,9 @@
 <div class="bordered">
     <div>
-        <button type="button" (click)="expand()">열기</button>
-        <button type="button" (click)="collapse()">닫기</button>
+        <button type="button" (click)="expandToOpen()">열기</button>
+        <button type="button" (click)="collapseToClose()">닫기</button>
     </div>
-    <div class="toggle-popup" [@openClose]="state">      
+    <div class="toggle-popup" [@openClose]="openOrClose">      
         Hello<br/>
         Angular!    
     </div>

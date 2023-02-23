@@ -1,9 +1,9 @@
 <div>
     <label for="htmlid_userId">Id:</label>
-    <input type="text" id="htmlid_userId"   [(ngModel)]="pthUser.userId" #userId="ngModel" placeholder="2~10글자" pattern="^[a-z][a-z0-9]{1,9}" required>{{userId.valid}}
+    <input type="text" id="htmlid_userId"   [(ngModel)]="user.userId" #userId="ngModel" placeholder="2~10글자" pattern="^[a-z][a-z0-9]{1,9}" required>{{userId.valid}}
     <label for="htmlid_userName">이름:</label>
-    <input type="text" id="htmlid_userName" [(ngModel)]="pthUser.userName" #userName="ngModel" placeholder="2~5글자" minlength="2"  maxlength="5" required>{{userName.valid}}
+    <input type="text" id="htmlid_userName" [(ngModel)]="user.userName" #userName="ngModel" placeholder="2~5글자" minlength="2"  maxlength="5" required>{{userName.valid}}
 </div>   
 <div *ngIf="userId.valid && userName.valid">
-{{pthUser|json}}
+{{user|json}}
 </div>

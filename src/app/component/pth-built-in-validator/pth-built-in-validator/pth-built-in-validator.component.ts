@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PthBuiltInValidatorComponent {
   
-  public pthUser : {userId:string, userName:string} = { userId: '', userName: '' };
-
-  constructor(){
-    
-  }
+  user = { userId: '', userName: '' };
 
 }
 

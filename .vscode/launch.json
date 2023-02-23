@@ -20,7 +20,7 @@
       "name": "ng serve IN MSEdge",
       "type": "pwa-msedge",
       "request": "launch",
-      "preLaunchTask": "npm: start",
+      "preLaunchTask": "ng serve",
       "url": "http://localhost:4200",
       "webRoot": "${workspaceFolder}"
     }

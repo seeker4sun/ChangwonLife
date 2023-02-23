@@ -12,7 +12,7 @@ import { PthOrderByPipe } from './pipes/pth-orderBy/pth-order-by.pipe';
 
 import { PthFilterComponent  } from './component/pth-filter/pth-filter.component';
 import { PthLimitToComponent } from './component/pth-limit-to/pth-limit-to.component';
-import { PthOrderByComponent } from './component/pth-orderBy/pth-order-by/pth-order-by.component';
+import { PthOrderByComponent } from './component/pth-order-by/pth-order-by.component';
 import { PthBuiltInValidatorComponent } from './component/pth-built-in-validator/pth-built-in-validator.component';
 import { PthElementStatusComponent    } from './component/pth-element-status/pth-element-status.component';
 

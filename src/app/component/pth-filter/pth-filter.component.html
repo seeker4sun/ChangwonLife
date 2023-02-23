@@ -1,0 +1,9 @@
+<div>최소나이</div>
+<div>
+    <select [(ngModel)]="min">
+        <option *ngFor="let val of range" [value]="val">{{val}}살</option>
+    </select>
+</div>
+<ol>
+    <li *ngFor="let member of members | pthFilter:min:max">{{member.name}}({{member.age}})</li>
+</ol>

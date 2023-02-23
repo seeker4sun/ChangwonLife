@@ -8,7 +8,7 @@ import { Station } from 'src/app/Model/station';
   styleUrls: ['./pth-slide-menu.component.scss'],
   animations:[
     trigger('Title', [      
-      transition('void => *', [style({ opacity: 0 }), animate('500ms')])      
+      transition('void => *', [style({opacity:0}), animate('500ms')])      
     ]),
     trigger('SlidMenu', [
       state('open',  style({height: '30px'})),
@@ -18,14 +18,13 @@ import { Station } from 'src/app/Model/station';
   ]
 })
 export class PthSlideMenuComponent {
-  stations: Station[] = [];
+  stations: Station[] = [
+    new Station('서울역','close'),
+    new Station('대전역','close'),
+    new Station('대구역','close'),
+    new Station('부산역','close')
+  ];
 
-  constructor(){
-    this.stations.push(new Station('서울역','close'));
-    this.stations.push(new Station('대전역','close'));
-    this.stations.push(new Station('대구역','close'));
-    this.stations.push(new Station('부산역','close'));
-  }
   select(name: string){
     alert(name+'을 선택했습니다');
   }

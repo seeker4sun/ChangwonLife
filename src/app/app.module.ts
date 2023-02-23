@@ -23,6 +23,7 @@ import { PthFormStatusComponent } from './component/pth-form-status/pth-form-sta
 import { PthCssKeyframesComponent } from './component/pth-css-keyframes/pth-css-keyframes.component';
 import { PthMessageBoxComponent } from './component/pth-message-box/pth-message-box.component';
 import { PthSlideMenuComponent } from './component/pth-slide-menu/pth-slide-menu.component';
+import { PthTimingComponent } from './component/pth-timing/pth-timing.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { PthSlideMenuComponent } from './component/pth-slide-menu/pth-slide-menu
     PthFormStatusComponent,
     PthCssKeyframesComponent,
     PthMessageBoxComponent,
-    PthSlideMenuComponent
+    PthSlideMenuComponent,
+    PthTimingComponent
     
   ],
   imports: [

@@ -20,6 +20,8 @@ import { PthFormReferenceVariableComponent } from './component/pth-form-referenc
 import { PthFormGroupComponent } from './component/pth-form-group/pth-form-group.component';
 import { PthCustomValidatorsComponent } from './component/pth-custom-validators/pth-custom-validators.component';
 import { PthFormStatusComponent } from './component/pth-form-status/pth-form-status.component';
+import { PthCssKeyframesComponent } from './component/pth-css-keyframes/pth-css-keyframes.component';
+import { PthMessageBoxComponent } from './component/pth-message-box/pth-message-box.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { PthFormStatusComponent } from './component/pth-form-status/pth-form-sta
     PthFormReferenceVariableComponent,
     PthFormGroupComponent,
     PthCustomValidatorsComponent,
-    PthFormStatusComponent
+    PthFormStatusComponent,
+    PthCssKeyframesComponent,
+    PthMessageBoxComponent
     
   ],
   imports: [

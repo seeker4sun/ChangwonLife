@@ -1,0 +1,12 @@
+img {
+    animation-name: infinite-move;
+    animation-duration: 2s;  
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes infinite-move {
+from {margin-left: 0}
+50%  {margin-left: 500px}
+to   {margin-left: 1000px}
+}

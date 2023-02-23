@@ -1,0 +1,9 @@
+<div class="bordered">
+<div class="top-bar">출발역을 선택하세요</div>
+  <div class="item" *ngFor="let station of stations">
+    <div class="title" (click)="station.toggleMenu()" [@Title]="station.status"> {{station.name}} </div>
+    <div class="slide-menu" [@SlidMenu]="station.status">
+      <button (click)="select(station.name)">선택</button><button (click)="station.status='close'">닫기</button>
+    </div>
+  </div>
+</div>  

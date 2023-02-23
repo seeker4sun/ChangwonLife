@@ -18,6 +18,8 @@ import { PthBuiltInValidatorComponent } from './component/pth-built-in-validator
 import { PthElementStatusComponent    } from './component/pth-element-status/pth-element-status.component';
 import { PthFormReferenceVariableComponent } from './component/pth-form-reference-variable/pth-form-reference-variable.component';
 import { PthFormGroupComponent } from './component/pth-form-group/pth-form-group.component';
+import { PthCustomValidatorsComponent } from './component/pth-custom-validators/pth-custom-validators.component';
+import { PthFormStatusComponent } from './component/pth-form-status/pth-form-status.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { PthFormGroupComponent } from './component/pth-form-group/pth-form-group
     PthBuiltInValidatorComponent,
     PthElementStatusComponent,
     PthFormReferenceVariableComponent,
-    PthFormGroupComponent
+    PthFormGroupComponent,
+    PthCustomValidatorsComponent,
+    PthFormStatusComponent
     
   ],
   imports: [

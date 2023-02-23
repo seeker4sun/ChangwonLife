@@ -1,0 +1,15 @@
+<form [formGroup]="form1">
+<div>
+    <input type="text" placeholder="이름" formControlName="username" />
+</div>
+<div>
+    form.valid : {{form1.valid}}<br> 
+    form.value : {{form1.value | json}}
+</div>
+<div *ngIf="!username.valid">
+    <p *ngIf="username!.errors!['required']">이름 입력을 해주세요</p>
+    <p *ngIf="username!.errors!['minlength']">3글자 이상입니다.</p>
+    <p *ngIf="username!.errors!['maxlength']">10글자를 초과할 수 없습니다.</p>
+    <p *ngIf="username!.errors!['startsWithNumber']">숫자로 시작할 수 없습니다.</p>
+</div>
+</form>

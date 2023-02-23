@@ -1,6 +1,6 @@
 <div>출력개수</div>
 <div>
-    <select [(ngModel)]="numDisplay">
+    <select title="numDisplay" [(ngModel)]="numDisplay">
         <option *ngFor="let num of [0,1,2,3,4,5,6,7]" [value]="num">{{num}}개 출력</option>
     </select>
 </div>

@@ -1,12 +1,41 @@
-<div>
-<p>
-<input type="text"  [(ngModel)]="user.id" #id="ngModel"  placeholder="아이디 (1~10글자)"  pattern="^[a-z][a-z0-9]{1,9}" maxlength="10" required>
-</p>
-<p>id.value     : {{id.value|json}}</p>
-<p>id.valid     : {{id.valid}}</p>
-<p>id.untouched : {{id.untouched}}</p>
-<p>id.touched   : {{id.touched}}</p>  
-<p>id.pristine  : {{id.pristine}}</p>
-<p>id.dirty     : {{id.dirty}}</p>
-<p>id.errors    : {{id.errors |json}}</p>
+<div class="bordered">
+    <input type="text"  [(ngModel)]="user.id" #userid="ngModel"
+        placeholder="아이디(1~10영문글자)"  pattern="^[a-z][a-z0-9]{1,9}" maxlength="10" required />
+</div>
+<div class="bordered">
+    <table>
+        <thead>
+            <td>항목</td><td>값</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>userid.value</td>
+                <td>{{userid.value|json}}</td>
+            </tr>
+            <tr>
+                <td>userid.valid</td>
+                <td>{{userid.valid}}</td>
+            </tr>
+            <tr>
+                <td>userid.untouched</td>
+                <td>{{userid.untouched}}</td>
+            </tr>
+            <tr>
+                <td>userid.touched</td>
+                <td>{{userid.touched}}</td>
+            </tr>
+            <tr>
+                <td>userid.pristine</td>
+                <td>{{userid.pristine}}</td>
+            </tr>
+            <tr>
+                <td>userid.dirty</td>
+                <td>{{userid.dirty}}</td>
+            </tr>
+            <tr>
+                <td>userid.errors</td>
+                <td>{{userid.errors |json}}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>

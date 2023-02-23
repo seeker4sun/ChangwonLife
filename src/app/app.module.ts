@@ -15,6 +15,7 @@ import { PthLimitToComponent } from './component/pth-limit-to/pth-limit-to.compo
 import { PthOrderByComponent } from './component/pth-order-by/pth-order-by.component';
 import { PthBuiltInValidatorComponent } from './component/pth-built-in-validator/pth-built-in-validator.component';
 import { PthElementStatusComponent    } from './component/pth-element-status/pth-element-status.component';
+import { PthFormReferenceVariableComponent } from './component/pth-form-reference-variable/pth-form-reference-variable.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PthElementStatusComponent    } from './component/pth-element-status/pth
     PthFilterComponent,
     PthOrderByComponent,
     PthBuiltInValidatorComponent,
-    PthElementStatusComponent
+    PthElementStatusComponent,
+    PthFormReferenceVariableComponent
     
   ],
   imports: [

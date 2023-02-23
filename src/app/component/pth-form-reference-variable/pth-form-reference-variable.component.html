@@ -1,0 +1,14 @@
+<form #f="ngForm">
+    아이디 : <input type="text" [(ngModel)]="user.userId" #userId="ngModel" 
+    name="userId" required/> {{userId.valid}}, {{userId.value}} <br/>
+
+    패스워드 : <input type="password" [(ngModel)]="user.userPassword" #password="ngModel"
+            name="userPassword" required/> {{password.valid}}, {{password.value}}<br/>
+
+    이름 : <input type="text" [(ngModel)]="user.userName" #userName="ngModel"
+            [ngModelOptions]="{standalone: true}" required/> {{userName.valid}}, {{userName.value}}
+</form>
+<div *ngIf="f.valid">            
+  f.value : {{f.value | json}}<br/>
+  f.valid : {{f.valid}}
+</div>

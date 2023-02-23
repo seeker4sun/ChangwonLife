@@ -1,0 +1,6 @@
+.ng-untouched{ font-weight: normal; }
+.ng-touched  { font-weight: bold; }
+.ng-dirty    { background-color: white;color: black; }
+.ng-pristine { background-color: khaki;color: white; }
+.ng-valid    { border: 2px solid red;}
+.ng-invalid  { border: 2px dotted gray; }

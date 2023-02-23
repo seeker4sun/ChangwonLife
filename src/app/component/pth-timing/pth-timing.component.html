@@ -1,11 +1,11 @@
 <div class="bordered">
-<h2>상태 : {{state}}</h2>
-<div [@timing]="state">
-  <img src="assets/images/car.png" alt="car image"/>
-</div>
-<div>
-  <button type="button" (click)="check('ease-in','ease-out')">Easing 테스트</button>
-  <button type="button" (click)="check('delay-in','delay-out')">Delay 테스트</button>
-  <button type="button" (click)="check('duration-in','duration-out')">Duration 테스트</button>
-</div>
+    <h2>상태 : {{state}}</h2>
+    <div [@timing]="state">
+        <img src="assets/images/car.png" alt="car image" />
+    </div>
+    <div>
+        <button type="button" (click)="check('ease-in','ease-out')">Easing 테스트</button>
+        <button type="button" (click)="check('delay-in','delay-out')">Delay 테스트</button>
+        <button type="button" (click)="check('duration-in','duration-out')">Duration 테스트</button>
+    </div>
 </div>

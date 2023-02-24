@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { trigger, transition, style, animate, state } from '@angular/animations';
-import { Station } from 'src/app/Model/station';
+import { Station } from 'src/app/model/station';
 
 @Component({
   selector: 'app-pth-slide-menu',

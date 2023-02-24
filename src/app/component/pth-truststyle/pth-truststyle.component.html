@@ -1,0 +1,16 @@
+<!--
+<div class="bordered">
+  <div class="fullspaced bordered"><img alt="car image1" [style.background-image]="styleURL" ></div>
+  <div class="fullspaced bordered"><img alt="car image2" [style.background-image]="styleURL | pthSafe"></div>
+  <div class="fullspaced bordered"><img alt="car image3" [style.background-image]="trustStyle"> </div>
+  <div class="fullspaced bordered"><img alt="car image4" [style.background-image]="'url(' + imageURL + ')'"></div>
+  <div><img class="assetCar" src="assets/images/car.png" alt="car image5"/></div>
+</div>
+-->
+<div class="bordered">
+    <div class="coveredbyImage" [style.background-image]="styleURL" ></div>
+    <div class="coveredbyImage" [style.background-image]="styleURL | pthSafe"></div>
+    <div class="coveredbyImage" [style.background-image]="trustStyle"> </div>
+    <div class="coveredbyImage" [style.background-image]="'url(' + imageURL + ')'"></div>
+    <div><img class="assetCar" src="assets/images/car.png" alt="car image5"/></div>
+  </div>

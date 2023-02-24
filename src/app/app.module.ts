@@ -10,6 +10,7 @@ import { AppComponent     } from './app.component';
 import { PthLimitToPipe } from './pipes/pth-limit-to/pth-limit-to.pipe';
 import { PthFilterPipe  } from './pipes/pth-filter/pth-filter.pipe';
 import { PthOrderByPipe } from './pipes/pth-orderBy/pth-order-by.pipe';
+import { PthSafePipe } from './pipes/pth-safe/pth-safe.pipe';
 
 import { PthFilterComponent  } from './component/pth-filter/pth-filter.component';
 import { PthLimitToComponent } from './component/pth-limit-to/pth-limit-to.component';
@@ -24,6 +25,14 @@ import { PthCssKeyframesComponent } from './component/pth-css-keyframes/pth-css-
 import { PthMessageBoxComponent } from './component/pth-message-box/pth-message-box.component';
 import { PthSlideMenuComponent } from './component/pth-slide-menu/pth-slide-menu.component';
 import { PthTimingComponent } from './component/pth-timing/pth-timing.component';
+import { PthInterpolationComponent } from './component/pth-interpolation/pth-interpolation.component';
+import { PthInnerhtmlComponent } from './component/pth-innerhtml/pth-innerhtml.component';
+import { PthTrusturlComponent } from './component/pth-trusturl/pth-trusturl.component';
+import { PthTrusthtmlComponent } from './component/pth-trusthtml/pth-trusthtml.component';
+import { PthTrustresourceurlComponent } from './component/pth-trustresourceurl/pth-trustresourceurl.component';
+import { PthTruststyleComponent } from './component/pth-truststyle/pth-truststyle.component';
+import { PthPromisePrototypeComponent } from './component/pth-promise-prototype/pth-promise-prototype.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +40,7 @@ import { PthTimingComponent } from './component/pth-timing/pth-timing.component'
     PthLimitToPipe,
     PthFilterPipe,
     PthOrderByPipe,
+    PthSafePipe,
 
     PthLimitToComponent,
     PthFilterComponent,
@@ -44,7 +54,15 @@ import { PthTimingComponent } from './component/pth-timing/pth-timing.component'
     PthCssKeyframesComponent,
     PthMessageBoxComponent,
     PthSlideMenuComponent,
-    PthTimingComponent
+    PthTimingComponent,
+    PthInterpolationComponent,
+    PthInnerhtmlComponent,
+    PthTrusturlComponent,
+    PthTrusthtmlComponent,
+    PthTrustresourceurlComponent,
+    PthTruststyleComponent,
+    PthPromisePrototypeComponent
+    
     
   ],
   imports: [

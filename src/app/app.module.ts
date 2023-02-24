@@ -32,6 +32,7 @@ import { PthTrusthtmlComponent } from './component/pth-trusthtml/pth-trusthtml.c
 import { PthTrustresourceurlComponent } from './component/pth-trustresourceurl/pth-trustresourceurl.component';
 import { PthTruststyleComponent } from './component/pth-truststyle/pth-truststyle.component';
 import { PthPromisePrototypeComponent } from './component/pth-promise-prototype/pth-promise-prototype.component';
+import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-promise-method.component';
 
 
 @NgModule({
@@ -61,7 +62,8 @@ import { PthPromisePrototypeComponent } from './component/pth-promise-prototype/
     PthTrusthtmlComponent,
     PthTrustresourceurlComponent,
     PthTruststyleComponent,
-    PthPromisePrototypeComponent
+    PthPromisePrototypeComponent,
+    PthPromiseMethodComponent
     
     
   ],

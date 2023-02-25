@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
-import { HttpClient  } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
-import { handleError } from './async-handling.observable';
+import { handleErrorPromise } from './async-handling.promise';
 
 @Injectable({
   providedIn: 'root'
 })
-export class PthWikiServiceService {
+export class PthWikiServicePromiseService {
 
-  constructor(private http: HttpClient ) { }
+  constructor(private http: HttpClient) { }
 
   search(keyword: string) {
 
@@ -20,11 +20,11 @@ export class PthWikiServiceService {
     params.set('format', 'json');
     //params.set('callback', 'JSONP_CALLBACK');
     let querystring = params.toString();
+
     return this.http
      .jsonp(wikiUrl+'?'+ querystring, 'JSONP_CALLBACK')
-     //.map(response => <string[]>response.json()[1])
-     //.catch(handleError);
-
+      //.toPromise()
+      // .then(response => <string[]>response.json()[1])
+      // .catch(handleErrorPromise);
   }
-
 }

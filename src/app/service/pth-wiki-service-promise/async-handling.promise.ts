@@ -1,6 +1,6 @@
 import { HttpResponse } from '@angular/common/http';
 
-export function handleError(error: HttpResponse<any> | any) {
+export function handleErrorPromise(error: HttpResponse<any> | any) {
     let errMsg: string;
     if (error instanceof HttpResponse) {
         const body = error.body || '';

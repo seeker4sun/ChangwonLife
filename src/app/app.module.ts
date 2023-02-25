@@ -3,6 +3,8 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule           } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientJsonpModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent     } from './app.component';
@@ -33,6 +35,7 @@ import { PthTrustresourceurlComponent } from './component/pth-trustresourceurl/p
 import { PthTruststyleComponent } from './component/pth-truststyle/pth-truststyle.component';
 import { PthPromisePrototypeComponent } from './component/pth-promise-prototype/pth-promise-prototype.component';
 import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-promise-method.component';
+
 
 
 @NgModule({
@@ -69,6 +72,9 @@ import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-pr
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
+
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,

@@ -1,0 +1,9 @@
+<span *ngIf="isEdit">
+    <input type="text" #input1 placeholder="수정할 내용" [(ngModel)]="editedName">
+    <button (click)="put(input1.value)">저장</button>
+    <button (click)="delete()">삭제</button>
+    <button (click)="isEdit=false">취소</button>
+</span>
+<span *ngIf="!isEdit">
+    <button (click)="isEdit=true">수정</button>
+</span>

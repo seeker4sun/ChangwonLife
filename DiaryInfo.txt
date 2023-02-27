@@ -126,8 +126,6 @@ seek4sun / ~r4~@
 
 접종 예약
 
-
-
 -----------------------------------------------------------
 파티마 
 기간 2년치
@@ -185,7 +183,7 @@ Just Managable Difficulty
 8:10분에는 출발 늦어도
 
 내용이 아닌 의도에 답하기
-"방금 뭐라고 하셨지요?"4
+"방금 뭐라고 하셨지요?"
 '나' 대신에 '당신'을 주체로 놓았음
 책임을 정통으로 상대에게 돌리게 한다.
 
@@ -302,4 +300,12 @@ npm outdated @angular/material
 @angular/material 패키지가 업데이트되었다면, 최신 버전 정보가 표시됩니다.
 -----------------------------------------------------------
 
-
+ get(url: string,
+  options: { headers?: HttpHeaders | { [header: string]: string | string[]; };
+   context?: HttpContext;
+    observe?: "body" | "events" | "response";
+    params?: HttpParams | { ...; };
+    reportProgress?: boolean;
+     responseType?: "arraybuffer" | ... 2 more ... | "json";
+      withCredentials?: boolean; } = {}): Observable<any>
+-----------------------------------------------------------      

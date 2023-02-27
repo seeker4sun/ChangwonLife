@@ -36,6 +36,11 @@ import { PthTruststyleComponent } from './component/pth-truststyle/pth-truststyl
 import { PthPromisePrototypeComponent } from './component/pth-promise-prototype/pth-promise-prototype.component';
 import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-promise-method.component';
 
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { PersonData } from './data/person-data';
+import { PthPersonListComponent } from './component/pth-person-list/pth-person-list.component';
+import { PthItemEditComponent } from './component/pth-item-edit/pth-item-edit.component';
+
 
 
 @NgModule({
@@ -66,7 +71,9 @@ import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-pr
     PthTrustresourceurlComponent,
     PthTruststyleComponent,
     PthPromisePrototypeComponent,
-    PthPromiseMethodComponent
+    PthPromiseMethodComponent,
+    PthPersonListComponent,
+    PthItemEditComponent
     
     
   ],
@@ -78,8 +85,9 @@ import { PthPromiseMethodComponent } from './component/pth-promise-method/pth-pr
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
     
+    InMemoryWebApiModule.forRoot(PersonData)
   ],
   providers: [],
   bootstrap: [AppComponent]

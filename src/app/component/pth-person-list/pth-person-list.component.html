@@ -1,0 +1,19 @@
+<div class="bordered">
+<h3>인물관리 by {{mode}}</h3>
+
+<section>
+	<input #newPersonName placeholder="이름을 입력해주세요" />
+	<button (click)="addPerson(newPersonName.value); newPersonName.value=''">추가</button>
+	<p class="error" *ngIf="errMessage">{{errMessage}}</p>
+</section>
+
+<ul class="list">
+	<li *ngFor="let p of persons ; let i=index">{{i+1}}. {{p.name}}
+		<app-pth-item-edit (doPut)="doPut($event)" (doDelete)="doDelete($event)" [person1]="p"></app-pth-item-edit>
+	</li>
+</ul>
+<div>
+    <h3>액션 결과</h3>
+    <p>{{resultMessage}}</p>
+</div>
+</div>

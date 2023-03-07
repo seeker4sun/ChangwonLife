@@ -315,3 +315,20 @@ npm outdated @angular/material
      responseType?: "arraybuffer" | ... 2 more ... | "json";
       withCredentials?: boolean; } = {}): Observable<any>
 -----------------------------------------------------------      
+
+display:inline-block은 가로로 배치하면서도 기본 마진과 패딩을 가지고 있지만,
+float:left;로 배치하면 가로로 배치될때 요소에 기본 마진과 패딩이 없습니다.
+그래서 필요하다면 요소마다 마진과 패딩을 지정해야 합니다. 그리고 float:left를
+사용하면 clear 속성으로 floating을 해제해야 합니다.
+
+수평내비게이션 만들기
+nav ul { list-style: none;}
+nav ul li { 
+  display:inline-block;
+  padding: 20px; margin: 0 20px; border: 1px solid black;
+}
+display: inline-block은 li에 지정해야함. inline 은 width 지정불가.
+지정해봐야 무시됨. inline-block은 inline 처럼 필요한만큼 가로공간을
+차지하면서도 block 처럼 width 지정할수 있음. 그래서 가로로 연이어
+나열하면서도 width,padding,margin 적용가능함
+-----------------------------------------------------------      

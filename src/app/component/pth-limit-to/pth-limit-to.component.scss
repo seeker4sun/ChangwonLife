@@ -1,0 +1,9 @@
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 86.6px 50px;
+  /* border-width: (정삼각형 높이/2) (정삼각형 너비/2) (정삼각형 높이/2) (정삼각형 너비/2) */
+  border-color: transparent transparent #000 transparent;
+  /* border-color: (상단 삼각형 투명색) (왼쪽 삼각형 투명색) (하단 삼각형 색상) (오른쪽 삼각형 투명색) */
+}

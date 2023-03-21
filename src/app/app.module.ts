@@ -40,6 +40,7 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { PersonData } from './data/person-data';
 import { PthPersonListComponent } from './component/pth-person-list/pth-person-list.component';
 import { PthItemEditComponent } from './component/pth-item-edit/pth-item-edit.component';
+import { PthClockComponent } from './component/pth-clock/pth-clock.component';
 
 
 
@@ -73,7 +74,8 @@ import { PthItemEditComponent } from './component/pth-item-edit/pth-item-edit.co
     PthPromisePrototypeComponent,
     PthPromiseMethodComponent,
     PthPersonListComponent,
-    PthItemEditComponent
+    PthItemEditComponent,
+    PthClockComponent
     
     
   ],

@@ -428,3 +428,13 @@ popBody() 메소드는 스택에서 저장된 출력 버퍼를 꺼내와서 현�
 변경된 내용을 새로운 출력 버퍼에 저장한 후, popBody() 메소드를 사용하여
 
 기존 출력 내용과 함께 출력할 수 있습니다.
+-----------------------------------------------------------
+CSS
+container 가 position:relative; 이면서 display:flex; 이며
+children 은 position:absolute; 이면서 top,right,bottom,left 속성(합쳐서 inset 속성)을
+지정하지 않으면,
+children 은 서로 겹쳐올려지면서 위치는 container 내에 flex 위치를 따른다.
+만일 container 의 justify-content:center;이고, align-items:center; 라면
+children 들은 container 내부의 정중앙에 겹쳐올려진다. z-index(숫자가 클수록 위로 올려져있음)으로
+z순서를 정하면 된다.
+-----------------------------------------------------------

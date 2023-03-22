@@ -1,28 +1,28 @@
 <div class="bodyContainer">
 <div class="container">
-  <div class="clock">
-    <div id="clockBefore"></div>
+  <div class="analogClock">
+    <div class="center-point-circle"></div>
   
-    <div #sc class="circle circle1" id="sc" style="--clr:#04fc43;"><i id="sc_i"></i></div>
-    <div #mn class="circle circle2" id="mn" style="--clr:#fee800;"><i id="mn_i"></i></div>
-    <div #hr class="circle circle3" id="hr" style="--clr:#ff2972;"><i id="hr_i"></i></div>
+    <div #sc class="circle" style="--side-length:300px; --z-index:10;--clr:#04fc43; --bar-width:2px;"><b></b><i></i></div>
+    <div #mn class="circle" style="--side-length:240px; --z-index: 9;--clr:#fee800; --bar-width:6px;"><b></b><i></i></div>
+    <div #hr class="circle" style="--side-length:180px; --z-index: 8;--clr:#ff2972; --bar-width:6px;"><b></b><i></i></div>
   
-    <span id="dgt1" style="--i:1"><b>1</b></span>
-    <span id="dgt2" style="--i:2"><b>2</b></span>
-    <span id="dgt3" style="--i:3"><b>3</b></span>
-    <span id="dgt4" style="--i:4"><b>4</b></span>
-    <span id="dgt5" style="--i:5"><b>5</b></span>
-    <span id="dgt6" style="--i:6"><b>6</b></span>
-    <span id="dgt7" style="--i:7"><b>7</b></span>
-    <span id="dgt8" style="--i:8"><b>8</b></span>
-    <span id="dgt9" style="--i:9"><b>9</b></span>
-    <span id="dgt10" style="--i:10"><b>10</b></span>
-    <span id="dgt11" style="--i:11"><b>11</b></span>
-    <span id="dgt12" style="--i:12"><b>12</b></span>
+    <span style="--i:1"><b>1</b></span>
+    <span style="--i:2"><b>2</b></span>
+    <span style="--i:3"><b>3</b></span>
+    <span style="--i:4"><b>4</b></span>
+    <span style="--i:5"><b>5</b></span>
+    <span style="--i:6"><b>6</b></span>
+    <span style="--i:7"><b>7</b></span>
+    <span style="--i:8"><b>8</b></span>
+    <span style="--i:9"><b>9</b></span>
+    <span style="--i:10"><b>10</b></span>
+    <span style="--i:11"><b>11</b></span>
+    <span style="--i:12"><b>12</b></span>
   </div>
 
   <!-- digital clock-->
-  <div id="time">
+  <div class="digitalClock">
     <div #hours   id="hours"   style="--clr:#ff2972;">00</div>
     <div #minutes id="minutes" style="--clr:#fee800;">00</div>
     <div #seconds id="seconds" style="--clr:#04fc43;">00</div>

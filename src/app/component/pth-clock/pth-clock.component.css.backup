@@ -1,0 +1,220 @@
+.bodyContainer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100%; *//* 100vh */
+  background: #2f363e;  /* 2f363e; */
+}
+
+.container {
+  /* position: relative; */
+  background: #2f363e;
+  min-height: 500px;
+
+  border-radius: 20px;
+  border-top-left-radius:  225px;
+  border-top-right-radius: 225px; 
+
+  box-shadow:
+   25px 25px 75px rgba(0,0,0, 0.75),
+   10px 10px 70px rgba(0,0,0, 0.25),
+  inset 5px 5px 10px rgba(0,0,0, 0.5),
+  inset 5px 5px 20px rgba(255,255,255,0.2),
+  inset -5px -5px 15px rgba(0,0,0, 0.75);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;    /* .clock 하고 #time 을 아래로 연달아서 배치 아래축으로 정중앙 */
+}
+
+.clock {
+  
+  width:  450px;
+  height: 450px;
+  background: #2f363e; /* #2f363e; */
+  border-radius: 50%;
+  box-shadow: 10px 50px 70px rgba(0,0,0, 0.25),
+  inset 5px 5px 10px rgba(0,0,0, 0.5),
+  inset 5px 5px 20px rgba(255,255,255, 0.2),
+  inset -5px -5px 15px rgba(0,0,0, 0.75);
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.clock #clockBefore {
+  /* 시계 정중앙 */
+  /* content: ''; */
+  position: absolute;
+  width:  8px;
+  height: 8px;
+  background: #2f363e;
+  border: 1px solid #fff;
+  border-radius: 50%;  /* 둥글게 원으로 */
+  z-index: 100000;
+}
+
+.clock span {
+  position: absolute;
+  inset: 20px;
+  color: #fff;
+  text-align: center;
+  transform: rotate(calc(30deg * var(--i)));
+  /* 360 / 12 = 30deg */
+}
+
+.clock span b {
+  font-size: 2em;
+  opacity: 0.25;
+  font-weight: 600;
+  
+  /* 멋지네 */ 
+  display: inline-block;
+  transform: rotate(calc(-30deg * var(--i)));
+}
+ 
+ 
+.circle {
+  position: absolute;
+  text-align:center;
+ 
+  border: 2px solid rgba(0,0,0,0.25);
+  border-radius: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;   /* 시계바늘 끝지점을 제일 위쪽 가운데로 둔다  */
+}
+ 
+.circle1 {
+  width:  300px;
+  height: 300px;
+  z-index: 10;
+}
+.circle2 {
+  width:  240px;
+  height: 240px;
+  z-index: 9;
+}
+.circle3 {
+  width:  180px;
+  height: 180px;
+  z-index: 8;
+}
+
+.circle i {
+  position: absolute;
+
+  height: 50%;
+  background: var(--clr);
+
+  opacity: 0.75;
+  transform-origin: bottom;
+  transform: scale(0.85);
+}
+
+#sc_i {
+  width: 2px;
+}
+#mn_i {
+  width: 6px;
+}
+#hr_i {
+  width: 6px;
+}
+/*
+.circle:nth-child(1) i {
+  width: 2px;   // 안되는 이유 .circle::before 때문에 ::before 요소가 nth-child(1) 이 된다.
+}
+.circle:nth-child(2) i {
+  width: 6px;
+}
+.circle:nth-child(3) i {
+  width: 6px;
+}
+*/
+
+.circle::before {
+  content: '';
+  position: absolute;
+  top: -8.5px;
+
+/*   width:  15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--clr);
+  box-shadow: 0 0 20px var(--clr),
+  0 0 60px var(--clr); */
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7.5px 12.99px 7.5px;
+  /* border-width: (정삼각형 높이/2) (정삼각형 너비/2) (정삼각형 높이/2) (정삼각형 너비/2) */
+  border-color: transparent transparent var(--clr) transparent;
+  /* border-color: (상단 삼각형 투명색) (오른쪽 삼각형 투명색) (하단 삼각형 색상) (왼쪽 삼각형 투명색) */
+}
+
+
+/* digital clock style */
+#time {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  
+  font-size: 0.5em;
+  font-weight: 600;
+  
+  border: 2px solid rgba(0,0,0, 0.5);
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px rgba(0,0,0, 0.5),
+  inset 5px 5px 20px rgba(255,255,255,0.2),
+  inset -5px -5px 15px rgba(0,0,0, 0.75);
+  
+  display: flex;
+}
+
+#time div {
+  
+  width: 60px;
+  text-align: center;
+  color: var(--clr);
+  
+  position: relative;
+}
+
+#time div:nth-child(1)::after,
+#time div:nth-child(2)::after {
+  content: ':';
+  position: absolute;
+  right: -4px;
+}
+
+#time div:last-child {
+  font-size: 0.5em;
+  color: #fff;
+  
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+#time div:nth-child(2)::after {
+  animation: animate 1s steps(1) infinite;
+}
+
+@keyframes animate {
+  0%  {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

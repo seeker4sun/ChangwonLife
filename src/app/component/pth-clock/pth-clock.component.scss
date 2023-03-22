@@ -1,19 +1,23 @@
 $backColor:#2f363e;
-$boxShadow: 25px 25px 75px rgba(0,0,0, 0.75),
+$AnalogClockOneSideLength: 450px;
+
+$boxShadow:
+  25px 25px 75px rgba(0,0,0, 0.75),
   10px 10px 70px rgba(0,0,0, 0.25),
-  inset 5px 5px 10px rgba(0,0,0, 0.5),
-  inset 5px 5px 20px rgba(255,255,255,0.2),
-  inset -5px -5px 15px rgba(0,0,0, 0.75);
-$boxShadow2: 10px 50px 70px rgba(0,0,0, 0.25),
-  inset 5px 5px 10px rgba(0,0,0, 0.5),
-  inset 5px 5px 20px rgba(255,255,255, 0.2),
-  inset -5px -5px 15px rgba(0,0,0, 0.75);
-$boxShadow3: 5px 5px 10px rgba(0,0,0, 0.5),
-  inset 5px 5px 20px rgba(255,255,255,0.2),
+  inset  5px  5px 10px rgba(0,0,0, 0.5),
+  inset  5px  5px 20px rgba(255,255,255,0.2),
   inset -5px -5px 15px rgba(0,0,0, 0.75);
 
-$AnalogClockWidth_: 450px;
-$AnalogClockHeight: 450px;
+$boxShadow2:
+  10px 50px 70px rgba(0,0,0, 0.25),
+  inset  5px  5px 10px rgba(0,0,0, 0.5),
+  inset  5px  5px 20px rgba(255,255,255, 0.2),
+  inset -5px -5px 15px rgba(0,0,0, 0.75);
+
+$boxShadow3:
+   5px  5px 10px rgba(0,0,0, 0.5),
+  inset  5px  5px 20px rgba(255,255,255,0.2),
+  inset -5px -5px 15px rgba(0,0,0, 0.75);
 
 @mixin flexCenteredContainer {
   display: flex;
@@ -45,16 +49,18 @@ $AnalogClockHeight: 450px;
     border-radius: 20px;
     border-top-left-radius:  225px;
     border-top-right-radius: 225px; 
-  
     box-shadow: $boxShadow;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
   
     @include flexCenteredContainer;
     flex-direction: column;    /* .analogClock 하고 .digitalClock 을 아래로 연달아서 배치 아래축으로 정중앙 */
 
     .analogClock {
   
-      width:  $AnalogClockWidth_;
-      height: $AnalogClockHeight;
+      width:  $AnalogClockOneSideLength;
+      height: $AnalogClockOneSideLength;
       background-color: $backColor;
       border-radius: 50%;
       box-shadow: $boxShadow2;

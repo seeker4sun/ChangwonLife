@@ -493,3 +493,22 @@ setInterval(() => this.updateClock());
 이렇게 하면 setInterval(this.updateClock)를 사용할 때 발생하는 this 바인딩 문제를
 해결할 수 있습니다.
 -----------------------------------------------------------
+javascript에서 cell.addEventListener('click', handleClick, { once: true }) 와 같이
+div 요소에 클릭을 한번만 할수 있도록 하는 것을 angular 에서 구현하려면
+
+import { Component, HostListener } from '@angular/core';
+@Component({
+  selector: 'app-my-component',
+  template: '<div (click)="handleClick()">Click me once</div>'
+})
+export class MyComponent {
+  @HostListener('click', ['$event'], { once: true })
+  handleClick(event: MouseEvent) {
+    // 클릭 이벤트를 처리합니다.
+  }
+}
+위 코드에서 @HostListener 데코레이터를 사용하여 handleClick() 메서드를
+요소의 클릭 이벤트 핸들러로 등록합니다. { once: true } 옵션을 사용하여
+한 번만 클릭할 수 있도록 설정합니다.
+이렇게 구현하면 Angular에서도 div 요소를 한 번만 클릭할 수 있습니다.
+-----------------------------------------------------------

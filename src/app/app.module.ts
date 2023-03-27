@@ -41,6 +41,7 @@ import { PersonData } from './data/person-data';
 import { PthPersonListComponent } from './component/pth-person-list/pth-person-list.component';
 import { PthItemEditComponent } from './component/pth-item-edit/pth-item-edit.component';
 import { PthClockComponent } from './component/pth-clock/pth-clock.component';
+import { PthTicTacToeComponent } from './component/pth-tic-tac-toe/pth-tic-tac-toe.component';
 
 
 
@@ -75,7 +76,8 @@ import { PthClockComponent } from './component/pth-clock/pth-clock.component';
     PthPromiseMethodComponent,
     PthPersonListComponent,
     PthItemEditComponent,
-    PthClockComponent
+    PthClockComponent,
+    PthTicTacToeComponent
     
     
   ],

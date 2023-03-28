@@ -112,28 +112,41 @@
 
 .winning-message {
   display: none;
+  /* display: flex; */
+  
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;  /* 전체화면 채우기 */
-  background-color: rgba(0, 0, 0, 0.9);
   
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  font-size: 5rem;
+
+  justify-content: center;
+  align-items:center;
   flex-direction: column;
 }
 
-.winning-message button {
+.winningMessageText {
+  margin:  1rem;
+  padding: 1rem;
+  font-size: 7rem;
+
+  /* background-color: yellow;
+  border: 1px solid green; */
+}
+
+.winningMessageText button {
   font-size: 3rem;
+  padding: 1rem;
   background-color: white;
-  border: 1px solid black;
-  padding: .25em .5em;
+  /* border: 1px solid black; */
+  /* border: none; */
   cursor: pointer;
 }
 
 .winning-message.show {
   display: flex;
 }
+

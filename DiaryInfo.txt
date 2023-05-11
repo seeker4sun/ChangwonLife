@@ -68,6 +68,9 @@ seek4sun@korea.kr / 7181
 경상남도인재개발원 https://gsnd.nhi.go.kr/
 박태하 seek4sun / 박태하!1xxx  (23.4.12박광제->박태하 변경완료)
 
+경상남도인재개발원 통합교육관리시스템 https://gn.lms.go.kr
+seeker4sun / ~r4~@
+
 국민권익위원회 첨렴연수원 나라배움터
 https://acti.nhi.go.kr
 seek4sun / 박태하!1xxx 
@@ -129,9 +132,7 @@ SEEKER4SUN / 박xx현!xxxx
 
 
 -----------------------------------------------------------
-경상남도인재개발원
-http://gn.lms.go.kr
-seeker4sun / ~r4~@
+
 -----------------------------------------------------------
 한국보건복지인재원
 https://duty.kohi.or.kr

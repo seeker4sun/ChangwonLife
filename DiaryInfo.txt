@@ -1,20 +1,22 @@
 ARS 시스템
 112.1.2.198:13389 Web
-112.1.2.70:13389 DB
+112.1.2.70 :13389 DB
 ltarsadm/ !krsys9월1일
+10389
+
 
 가상계좌 원격 포트 13389 로바꿨다고 하는데(2022.4.6 박광제가)
-아닌것 같은데.. 이상하군
+아닌걸로 판명남. 나중에 포트를 3389에서 13389 로 바꿀것.
 가상Was 112.1.2.111 jeus5
-gbankingwas / Gbswas!202205
+gbankingwas / Gbswas!202303
 가상DB  112.1.2.112 MS-SQL 2008
-gbankingdb / Gbsdb!202205
+gbankingdb  / Gbsdb!202303
 MSSQL2008
 sa / wlqkbtp
 rtcs / wlqkbtp 지방세
 recs / wlqkbtp 세외수입
 가상Web
-gbankingweb / Gbsweb!202205
+gbankingweb / Gbsweb!202303
 -----------------------------------------------------------
 경남은행 체크카드 / 어머니
 
@@ -24,7 +26,7 @@ GPKI 인증서
 모기채
 파리채
 부채- 자동차, 책상
-책상밑 난로
+책상밑 난로G
 웸베이비 히팅 패드
 게르마늄 찜질기 -황토박사
 무선무드등 듀얼가습기

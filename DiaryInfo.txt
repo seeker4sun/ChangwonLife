@@ -15,6 +15,7 @@ MSSQL2008
 sa / wlqkbtp
 rtcs / wlqkbtp 지방세
 recs / wlqkbtp 세외수입
+rwcs /         상수도
 가상Web
 gbankingweb / Gbsweb!202303
 -----------------------------------------------------------

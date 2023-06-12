@@ -4,7 +4,6 @@ ARS 시스템
 ltarsadm/ !krsys9월1일
 10389
 
-
 가상계좌 원격 포트 13389 로바꿨다고 하는데(2022.4.6 박광제가)
 아닌걸로 판명남. 나중에 포트를 3389에서 13389 로 바꿀것.
 가상Was 112.1.2.111 jeus5
@@ -148,6 +147,11 @@ https://www.uniedu.go.kr/
 개명전 이름으로 되어있음
 seeker4sun / seek4sun@korea.kr / 박도현!xxxx
 -----------------------------------------------------------
+
+MS SQL Server 2017 Product Key
+https://gist.github.com/ssbalakumar/17e5402c3df6a2e57f8af52844c958e3?permalink_comment_id=4025696
+이걸로 했음 Standard - PHDV4-3VJWD-N7JVP-FGPKY-XBV89 
+
 상남동 상무초밥
 거제 버드앤피쉬
 

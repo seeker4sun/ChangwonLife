@@ -10,8 +10,10 @@ MSSQL2008 sa / krsys
 
 가상계좌 원격 포트 13389 로바꿨다고 하는데(2022.4.6 박광제가)
 아닌걸로 판명남. 나중에 포트를 3389에서 13389 로 바꿀것.
+
 가상Was 112.1.2.111 jeus5
 gbankingwas / Gbswas!202303
+
 가상DB  112.1.2.112 MS-SQL 2008
 gbankingdb  / Gbsdb!202303
 MSSQL2008
@@ -19,7 +21,8 @@ sa / wlqkbtp
 rtcs / wlqkbtp 지방세
 recs / wlqkbtp 세외수입
 rwcs /         상수도
-가상Web
+
+가상Web 27.101.71.45 4층 전산실 
 gbankingweb / Gbsweb!202303
 -----------------------------------------------------------
 경남은행 체크카드 / 어머니

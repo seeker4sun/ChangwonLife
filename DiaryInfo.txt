@@ -322,7 +322,7 @@ choco upgrade chocolatey
 choco upgrade python3
 choco upgrade python
 choco upgrade nodejs-lts
-choco upgrade git.install
+rem choco upgrade git.install
 
 rem choco 과 npm 상호 upgrade 는 불가함
 rem npm upgrade(node가 이미 설치된 경우)

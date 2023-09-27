@@ -324,7 +324,7 @@ choco upgrade chocolatey
 choco upgrade python3
 choco upgrade python
 choco upgrade nodejs-lts
-choco upgrade git.install
+rem choco upgrade git.install
 
 rem choco 과 npm 상호 upgrade 는 불가함
 rem npm upgrade(node가 이미 설치된 경우)
@@ -350,6 +350,8 @@ del /s /q D:\*.DS_Store
 
 npm install -g @angular/cli
 ng version
+
+dotnet --list-sdks
 
 -----------------------------------------------------------
 npm을 이용해 package.json의 모든 package를 최신 버전으로 바꾸는 방법은 다음과 같습니다.

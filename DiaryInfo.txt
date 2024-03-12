@@ -91,6 +91,10 @@ cw.brentphone.kr
 https://changwon.imooc.co.kr/
 seek4sun@korea.kr / 7181
 -----------------------------------------------------------
+나라배움터(https://e-learning.nhi.go.kr)
+step.or.kr  seek4sun@korea.kr / 박태하!1xxx
+
+
 경상남도인재개발원 https://gsnd.nhi.go.kr/
 박태하 seek4sun / 박태하!1xxx  (23.4.12박광제->박태하 변경완료)
 
@@ -403,6 +407,8 @@ rem 또는
 npm-windows-upgrade
 
 npm list -g
+npm update -g
+
 
 choco -v
 node  -v

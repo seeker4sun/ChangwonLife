@@ -168,6 +168,9 @@ seeker4sun / 박도현!xxxx
 seeker4sun / 박도현!xxxx
 2021.5.11 가입
 
+모바일공무원증 설치 id.go.kr
+비번(5자리) : a45xx
+
 -----------------------------------------------------------
 Microsoft 
 seek4sun@korea.kr / 박광제!12xx
@@ -202,6 +205,9 @@ SEEKER4SUN / 박xx현!xxxx
 종합(평생혜택 비대면) 7145119904-01
 투신(N)CMA(비대면) 7145119904-05
 퇴직연금(다이렉트IRP)(비대면) 7145119904-29
+
+삼성화재다이렉트 자동차보험
+
 
 e마트, 신세계
 shinsegaepoint.com
@@ -438,6 +444,23 @@ npm install -g @angular/cli
 ng version
 
 dotnet --list-sdks
+
+git config --global --list
+git init
+git status
+파일만들기
+git add .
+git status
+git commit -m "message1"
+
+git commit -am "message2"
+
+git status
+git log
+
+git diff
+
+git log --stat
 
 -----------------------------------------------------------
 npm을 이용해 package.json의 모든 package를 최신 버전으로 바꾸는 방법은 다음과 같습니다.

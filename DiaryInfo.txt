@@ -65,7 +65,7 @@ Wetax 자동차세 납부
 -----------------------------------------------------------
 성산아트홀 시설무대부 송미석 268-7944
 -----------------------------------------------------------
-지방세정보시스템운영관리홈페이지
+지방세정보시스템운영관리홈페이지(e-지방세)
 seeker4sun / 박광제!~
 -----------------------------------------------------------
 범정부EA포털
@@ -98,10 +98,17 @@ cw.brentphone.kr
 https://changwon.imooc.co.kr/ 에서
 https://lc.multicampus.com/changwon 로 변경
 seek4sun@korea.kr / 7181
+
+
+휴넷(2016 창원시 사이버교육 hunet.co.kr)
+cw-74121001 / 1111
+
 -----------------------------------------------------------
+nhi.go.kr
+seek4sun / 박태하!1xxx
+
 나라배움터(https://e-learning.nhi.go.kr)
 step.or.kr  seek4sun@korea.kr / 박태하!1xxx
-
 
 경상남도인재개발원 https://gsnd.nhi.go.kr/
 박태하 seek4sun / 박태하!1xxx  (23.4.12박광제->박태하 변경완료)
@@ -120,6 +127,17 @@ seek4sun / 박태하!1xxx
 klid아카데미(www.klidacademy.or.kr) 
 seek4sun / 박태하!1xxx =>개명이름으로 바꿈(2024-03-06)
 https://changwon.klidacademy.or.kr (24년도 창원시 사이버교육)
+
+data.go.kr
+seeker4sun / sxxxx4xxx@
+
+한국양성평등교육진흥원,공무원성인지사이버교육(https://eqgender.kigepe.or.kr/)
+SEEKER4SUN / 박광제!xxxx
+
+
+정보자원관리시스템(irm.go.kr   <- 포워딩 www.geap.go.kr)
+seeker4sun / 박태하!1xxx    <-   seeker4sun / sxxxx4xxx@
+
 
 -----------------------------------------------------------
 재산변동신고 : peti.go.kr
@@ -152,6 +170,9 @@ seek4sun / 박광제!1xxx
 tasis.nts.go.kr
 seeker4sun / 박도X!07XX
 
+에버북(http://changwon.everbook.co.kr/) 도서요약?
+seek4sun / kjxxxx94    /// 작동안함
+
 -----------------------------------------------------------
 2023년 맞춤형 복지제도
 23.1.1~12.15
@@ -168,6 +189,7 @@ seeker4sun / 박도현!xxxx
 -----------------------------------------------------------
 공무원연금관리공단
 seeker4sun / 박도현!xxxx
+https://cert.geps.or.kr
 2021.5.11 가입
 
 모바일공무원증 설치 id.go.kr
@@ -177,19 +199,41 @@ seeker4sun / 박도현!xxxx
 Microsoft 
 seek4sun@korea.kr / 박광제!12xx
 
+live.com
+seek4sun@hotmail.co.kr / kjxxxx94
+seek4sun@korea.kr / 박광제!12xx
+
 카카오통합
 seek4sun@korea.kr / 박광제!12xx
 
-네이버
+
+네이버(naver.com)
 seek4sun / 박광제!xxx4
 
-Nate.com
+네이트(nate.com)
 seek4sun / 박광제!xxxx
 메일함, 주소록 등 초기화됨
 
 korea.com
 seek4sun / ~er4~@
 별로 재미없어 탈퇴함
+
+철도회원(letskorail.com)
+0861325717 / 박광제!xxxx
+
+
+
+myuserpass.com
+seek4sun@nate.com / asamiyuma!0xx4
+
+mongodb.com
+seeker4sun@gmail.com / 박광제!xxxx
+
+mailtrap.io
+seek4sun@daum.net / sxxxx4xxx@
+
+mailersend.com
+seek4sun@daum.net / 박도현!xxxx    // 첫글자는 대문자
 
 구글계정(google)
 se~er4~@gmail.com / 박도현!xxxx
@@ -202,6 +246,77 @@ facebook.com
 Id: 몰라 maybe 0102855xxxx
 pass : 박도현!xxxx
 
+코딩도장(dojang.io)
+seeker4sun / 박광제!xxxx
+
+이지스퍼블리싱(easyspub.co.kr)
+seeker4sun / 박광제!xxxx
+
+한빛미디어(hanbit.co.kr)
+seeker4sun / 박광제!xxxx
+
+
+imbc.com
+  / 박광제!xxxx
+
+
+
+
+이건뭐지
+disqus.com
+seeker4sun@gmail.com / nytigdn5rn!GVnK
+
+
+codebus.net
+seek4sun@nate.com / 박광제!xxxx
+
+codepip.com
+seek4sun@korea.kr / sxxxx4xxx@
+
+
+신 옥 희/qwertyiop1*
+
+daisomall.co.kr
+chnor / ch4780!@
+
+gilbut.co.kr
+ccwolf@nate.com / yeni2291
+http://cafe.gilbut.co.kr/it/main/main.aspx
+
+gmarket.co.kr
+ccknight / ocr3000d
+http://signin.gmarket.co.kr/login/login
+
+amazon.de
+eunchaelee@korea.kr / 770904sm
+
+akmall.co.kr
+mepius / yeni2291**
+
+11st.co.kr
+ccknight4502 / ocr300d
+mepius / yeni2291
+seek4sun / 박광제!xxxx
+
+아마존(amazon.com)
+eunchaelee@korea.kr / 770904sm
+seeker4sun@gmail.com / 박광제!xxxx
+
+
+lgsakers.com
+chnor / ch4780
+
+lotte.com
+sseeun@hanmail.net / hoho1212
+
+오라클(oracle.com)
+seeker4sun@gmail.com / 박광제!xxx4    // 첫글자는 대문자  // 이상하게 로그인 안되는군.
+
+윤하 openai.com
+smjdct@naver.com / 손윤하!0xx4
+
+윤하 지니(음악사이트,genie.co.kr )
+h1001717 / !!a2639734
 
 스타벅스코리아
 https://www.starbucks.co.kr/
@@ -214,6 +329,15 @@ SEEKER4SUN / 박xx현!xxxx
 퇴직연금(다이렉트IRP)(비대면) 7145119904-29
 
 삼성화재다이렉트 자동차보험
+
+gsretail.com
+ / 박*현!xxxx
+https://gs25.gsretail.com
+
+gsnpoint.com   (2023년12월31일부로 홈페이지 종료됨,앱(GS&POINT앱)에서는 가능)
+capri06 / 박*현!xxxx
+https://npass.gsnpoint.com
+
 
 
 e마트, 신세계
@@ -229,6 +353,9 @@ seek4sun / 박광제!xxx4
 wmberaming.com
 BERAMING 창원 용호점
 seeker4sun / 박광제!xxx4
+
+samsung.com
+seeker4sun@gmail.com / 박광제!xxx4
 
 -----------------------------------------------------------
 한국보건복지인재원
@@ -813,3 +940,6 @@ git, github
 git checkout 명령을 사용하면 HEAD를 제어해서 브랜치를 이동할수 있음
 git reset 명령은 HEAD가 가리키고 잇는 브랜치의 최신 커밋을 원하는 커밋으로 지정할수 있음.
 이때 어떤 브랜치에 잇는 커밋이든 지정할수 있으며, 명령수행후 브랜치와 연결이 끊긴 커밋은 삭제된다.
+
+git log --oneline --graph --all --decorate -n7
+원기올때, 최신7개 커밋

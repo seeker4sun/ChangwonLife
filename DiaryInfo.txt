@@ -170,6 +170,13 @@ SEEKER4SUN / 박광제!xxxx
 정보자원관리시스템(irm.go.kr   <- 포워딩 www.geap.go.kr)
 seeker4sun / 박도현!xxxx    <-   seeker4sun / sxxxx4xxx@
 
+메타시스템(http://10.215.18.113:8090/gdp/loginform.do)
+seeker4sun / 박광제!xxx4
+
+
+공직자메일,휴대폰
+/3x7x Z
+
 -----------------------------------------------------------
 재산변동신고 : peti.go.kr
 -----------------------------------------------------------
@@ -348,6 +355,11 @@ sseeun@hanmail.net / hoho1212
 
 오라클(oracle.com)
 seeker4sun@gmail.com / 박광제!xxx4    // 첫글자는 대문자  // 이상하게 로그인 안되는군.
+Qkrrhkdwp!0924 login.oracle.com,profile.oracle.com
+===> 도저히 연결된 메일계정을 알수 없어 비번을 알수 없음
+===> 아래의 계정을 다시만듬
+계정: seek4sun@daum.net
+비번: Qkrehgus!0703   (맨첫글자는 대문자)
 
 윤하 openai.com
 smjdct@naver.com / 손윤하!0xx4

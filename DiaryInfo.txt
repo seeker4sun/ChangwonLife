@@ -70,6 +70,9 @@ BC카드 www.bccard.com
 NH농협카드 
 SEEK4SUN / 박도*!07XX
 
+농협로그인 공동인증서(구 공인인증서)
+박xx현!xxxx
+
 농협인증서
 GPKI 인증서
 치약, 칫솔
@@ -276,9 +279,6 @@ seek4sun / ~er4~@
 
 철도회원(letskorail.com)
 0861325717 / 박광제!xxxx
-
-농협로그인 공동인증서(구 공인인증서)
-박xx현!xxxx
 
 myuserpass.com
 seek4sun@nate.com / asamiyuma!0xx4

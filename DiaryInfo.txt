@@ -304,6 +304,8 @@ se~er4~@gmail.com / 박도현!xxxx
 github.com/seeker4sun
 계정 seeker4sun / 박도현!xxxx  계정은 이메일 아님
 계정 seeker4sun2/ 박도현!xxxx
+Personal Access Token(classic)
+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
 
 facebook.com
 Id: 몰라 maybe 0102855xxxx
